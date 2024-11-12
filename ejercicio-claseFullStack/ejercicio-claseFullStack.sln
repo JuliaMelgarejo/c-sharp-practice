@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio-claseFullStack", "ejercicio-claseFullStack\ejercicio-claseFullStack.csproj", "{73BD9A9E-DA75-4228-8C97-0A11F6F96B15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejercicio-claseFullStack", "ejercicio-claseFullStack\ejercicio-claseFullStack.csproj", "{73BD9A9E-DA75-4228-8C97-0A11F6F96B15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{00C5DE41-D57F-4C98-B796-12B6502B0C08}"
+	ProjectSection(SolutionItems) = preProject
+		cotizacionService.cs = cotizacionService.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

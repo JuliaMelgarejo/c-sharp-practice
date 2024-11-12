@@ -1,5 +1,65 @@
 [
   {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazAnimal",
+    "Method": "ejemploInterface",
+    "RelativePath": "api/ejemploInterfazAnimal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazVehiculo",
+    "Method": "ejemplointerfaz",
+    "RelativePath": "api/ejemploInterfazVehiculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.herenciaController",
+    "Method": "getperro",
+    "RelativePath": "api/herencia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ejercicio_claseFullStack.Controllers.ValuesController",
     "Method": "Cotizacion",
     "RelativePath": "api/Values/blue",
