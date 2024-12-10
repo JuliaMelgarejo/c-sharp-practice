@@ -1,0 +1,6 @@
+@ejercicio_claseFullStack_HostAddress = http://localhost:5206
+
+GET {{ejercicio_claseFullStack_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
