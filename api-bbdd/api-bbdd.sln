@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-bbdd", "api-bbdd\api-bbdd.csproj", "{2A67EE61-8999-4581-B626-994AA77E53BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A67EE61-8999-4581-B626-994AA77E53BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A67EE61-8999-4581-B626-994AA77E53BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A67EE61-8999-4581-B626-994AA77E53BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A67EE61-8999-4581-B626-994AA77E53BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {308B3C49-8D08-4FDE-86AB-E93BD4C5CB19}
+	EndGlobalSection
+EndGlobal
