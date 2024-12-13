@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "H672J19mft5Unug9azjydw+Laj9BdUy+bMJE7G6Iaa4=",
+  "Hash": "nWPA672CFt7xVuUtDnCXqCXH5sdBhMOz4D8GVbcqREI=",
   "Source": "ejercicio-claseFullStack",
   "BasePath": "_content/ejercicio-claseFullStack",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

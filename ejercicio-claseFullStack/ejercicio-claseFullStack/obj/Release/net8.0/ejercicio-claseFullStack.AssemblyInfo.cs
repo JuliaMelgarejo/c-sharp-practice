@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ejercicio-claseFullStack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6014c48da8792345465b8e47434a6ef9b3c1eb5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ejercicio-claseFullStack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ejercicio-claseFullStack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

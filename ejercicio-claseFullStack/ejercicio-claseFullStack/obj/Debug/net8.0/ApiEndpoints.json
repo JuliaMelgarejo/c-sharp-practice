@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazAnimal",
+    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazAnimalController",
     "Method": "ejemploInterface",
     "RelativePath": "api/ejemploInterfazAnimal",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazVehiculo",
+    "ContainingType": "ejercicio_claseFullStack.Controllers.ejemploInterfazVehiculoController",
     "Method": "ejemplointerfaz",
     "RelativePath": "api/ejemploInterfazVehiculo",
     "HttpMethod": "GET",
@@ -89,10 +89,90 @@
     "Parameters": [
       {
         "Name": "currency",
-        "Type": "ejercicio_claseFullStack.Controllers.Currency",
+        "Type": "ejercicio_claseFullStack.Controllers.CurrencyController",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.EjemploClaseAbstractaController",
+    "Method": "EjemploClaseAbstractaAuto",
+    "RelativePath": "EjemploAuto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.EjemploClaseAbstractaController",
+    "Method": "EjemploClaseAbstractaMoto",
+    "RelativePath": "EjemploMoto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.EjercicioClaseAbstractaController",
+    "Method": "EjercicioGatoClaseAbstracta",
+    "RelativePath": "EjerccioGato",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ejercicio_claseFullStack.Controllers.EjercicioClaseAbstractaController",
+    "Method": "EjercicioPerroClaseAbstracta",
+    "RelativePath": "EjercicioPerro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.String",

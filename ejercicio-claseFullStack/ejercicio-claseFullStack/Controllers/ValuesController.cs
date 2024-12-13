@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
-
-
 namespace ejercicio_claseFullStack.Controllers
 {
     [Route("api/[controller]")]
@@ -28,7 +24,7 @@ namespace ejercicio_claseFullStack.Controllers
         }
 
         [HttpPost("convert")]
-        public async Task<string> GetSpecificQuote([FromBody] Currency currency)
+        public async Task<string> GetSpecificQuote([FromBody] CurrencyController currency)
         {
             string responseBody;
 

@@ -30,3 +30,40 @@ C:\Users\julia\OneDrive\Escritorio\fullstack\ejercicio-claseFullStack\ejercicio-
 C:\Users\julia\OneDrive\Escritorio\fullstack\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.pdb
 C:\Users\julia\OneDrive\Escritorio\fullstack\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.genruntimeconfig.cache
 C:\Users\julia\OneDrive\Escritorio\fullstack\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ref\ejercicio-claseFullStack.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.csproj.AssemblyReference.cache
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.AssemblyInfoInputs.cache
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.AssemblyInfo.cs
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.csproj.CoreCompileInputs.cache
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.sourcelink.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\refint\ejercicio-claseFullStack.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.pdb
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\appsettings.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.staticwebassets.endpoints.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.exe
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.deps.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.runtimeconfig.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\ejercicio-claseFullStack.pdb
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\scopedcss\bundle\ejercicio-claseFullStack.styles.css
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets\msbuild.ejercicio-claseFullStack.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets\msbuild.ejercicio-claseFullStack.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets\msbuild.build.ejercicio-claseFullStack.props
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ejercicio-claseFullStack.props
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ejercicio-claseFullStack.props
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercici.4196C2B4.Up2Date
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ejercicio-claseFullStack.genruntimeconfig.cache
+C:\Users\Nuevo Usuario\Desktop\tpFinal-cSharp\ejercicio-claseFullStack\ejercicio-claseFullStack\obj\Debug\net8.0\ref\ejercicio-claseFullStack.dll
