@@ -53,6 +53,83 @@
   },
   {
     "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "EliminarOrdenPorId",
+    "RelativePath": "api/Northwind/api/EliminarOrdenPorId",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "InsertarEmpleado",
+    "RelativePath": "api/Northwind/api/InsertarEmpleado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "ModificarNombreEmpleado",
+    "RelativePath": "api/Northwind/api/ModificarNombreEmpleado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEmpleado",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
     "Method": "ObtenerCantidadDeEmpleados",
     "RelativePath": "api/Northwind/api/ObtenerCantidadDeEmpleados",
     "HttpMethod": "GET",
@@ -62,6 +139,26 @@
     "ReturnTypes": [
       {
         "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "ObtenerCantidadEmpleadosPorTitulo",
+    "RelativePath": "api/Northwind/api/ObtenerCantidadEmpleadosPorTitulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[api_bbdd.QueryResponse.EmpleadoPorTituloResponse, api-bbdd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -186,6 +283,52 @@
     "ReturnTypes": [
       {
         "Type": "api_bbdd.Model.Employees",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "ObtenerProductosConCategoria",
+    "RelativePath": "api/Northwind/api/ObtenerProductosConCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[api_bbdd.QueryResponse.ProductosPorCategoriaResponse, api-bbdd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_bbdd.Controllers.NorthwindController",
+    "Method": "ObtenerProductosQueContienen",
+    "RelativePath": "api/Northwind/api/ObtenerProductosQueContienen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "palabra",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[api_bbdd.Model.Products, api-bbdd, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

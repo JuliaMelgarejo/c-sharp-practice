@@ -1,4 +1,6 @@
-﻿using api_bbdd.Model;
+﻿using System.ComponentModel.DataAnnotations;
+using api_bbdd.Model;
+using api_bbdd.QueryResponse;
 using api_bbdd.repository;
 using Microsoft.AspNetCore.Mvc;
 namespace api_bbdd.Controllers
@@ -27,7 +29,7 @@ namespace api_bbdd.Controllers
         }
         [Route("api/ObtenerEmpleadoPorId")]
         [HttpGet]
-        public async Task<Employees> ObtenerEmpleadoPorId([FromQuery]int id)
+        public async Task<Employees> ObtenerEmpleadoPorId([FromQuery] int id)
         {
             return await _repository.ObtenerEmpleadoPorId(id);
         }
@@ -66,5 +68,49 @@ namespace api_bbdd.Controllers
         {
             return await _repository.ObtenerElEmpleadoMasGrande();
         }
+
+        [Route("api/ObtenerCantidadEmpleadosPorTitulo")]
+        [HttpGet]
+        public async Task<List<EmpleadoPorTituloResponse>> ObtenerCantidadEmpleadosPorTitulo()
+        {
+            return await _repository.ObtenerCantidadEmpleadosPorTitulo();
+        }
+
+        [Route("api/ObtenerProductosConCategoria")]
+        [HttpGet]
+        public async Task<List<ProductosPorCategoriaResponse>> ObtenerProductosConCategoria()
+        {
+            return await _repository.ObtenerProductosConCategoria();
+        }
+
+        [Route("api/ObtenerProductosQueContienen")]
+        [HttpGet]
+        public async Task<List<Products>> ObtenerProductosQueContienen(string palabra)
+        {
+            return await _repository.ObtenerProductosQueContienen(palabra);
+        }
+
+        [HttpDelete]
+        [Route("api/EliminarOrdenPorId")]
+        public async Task<bool> EliminarOrdenPorId([Required, FromQuery] int OrderID)
+        {
+            return await _repository.EliminarOrdenPorId(OrderID);
+        }
+
+        [HttpPut]
+        [Route("api/ModificarNombreEmpleado")]
+        public async Task<bool> ModificarNombreEmpleado([Required, FromQuery]int idEmpleado, [Required, FromQuery] string Nombre)
+        {
+            return await _repository.ModificarNombreEmpleado(idEmpleado, Nombre);
+        }
+
+        [HttpPut]
+        [Route("api/InsertarEmpleado")]
+        public async Task<bool> InsertarEmpleado()
+        {
+            return await _repository.InsertarEmpleado();
+        }
+
     }
 }
+

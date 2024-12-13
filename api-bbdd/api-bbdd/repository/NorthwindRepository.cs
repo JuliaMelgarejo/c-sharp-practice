@@ -1,6 +1,9 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
 using api_bbdd.DataContext;
 using api_bbdd.Model;
+using api_bbdd.QueryResponse;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace api_bbdd.repository;
@@ -80,6 +83,82 @@ public class NorthwindRepository : INorthwindRepository
 
                      };
         return await result.FirstOrDefaultAsync();
+    }
+
+    public async Task<List<EmpleadoPorTituloResponse>> ObtenerCantidadEmpleadosPorTitulo()
+    {
+        var result = await( from emp in _dataContext.Employees
+                     group emp by emp.Title into g 
+                     select new EmpleadoPorTituloResponse
+                     {
+                         Titulo = g.Key, 
+                         CantidadEmpleados = g.Count()
+
+                     }).ToListAsync();
+        return result;
+    }
+
+    public async Task<List<ProductosPorCategoriaResponse>> ObtenerProductosConCategoria()
+    {
+        var result = await (from prod in _dataContext.Products
+                            join cat in _dataContext.Categories on prod.CategoryID equals cat.CategoryID
+                            select new ProductosPorCategoriaResponse
+                            {
+                                Producto = prod.ProductName,
+                                Categoria = cat.CategoryName
+
+                            }).ToListAsync();
+        return result;
+    }
+
+    public async Task<List<Products>> ObtenerProductosQueContienen(string palabra)
+    {
+        var result = await _dataContext.Products.Where(p => p.ProductName.Contains(palabra)).ToListAsync();
+        return result;
+    }
+    public async Task<bool> EliminarOrdenPorId(int OrderID)
+    {
+        Orders? orden = await _dataContext.Orders.Where(r => r.OrderID == OrderID).FirstOrDefaultAsync();
+        OrderDetails? ordenDetail = await _dataContext.OrderDetails.Where(r=> r.OrderID == orden.OrderID).FirstOrDefaultAsync();
+
+        _dataContext.OrderDetails.Remove(ordenDetail);
+        _dataContext.Orders.Remove(orden);
+
+        var result = _dataContext.SaveChanges();
+        return true;
+    }
+
+    public async Task<bool> ModificarNombreEmpleado(int idEmpleado, string Nombre)
+    {
+        bool actualizado = false ;
+        Employees result = await _dataContext.Employees.Where(e => e.EmployeeID == idEmpleado).FirstOrDefaultAsync();
+
+        if (result != null)
+        {
+           result.FirstName = Nombre;
+            var resulta =  _dataContext.SaveChanges();
+            actualizado = true;
+        }
+
+        return actualizado ;
+    }
+
+    public async Task<bool> InsertarEmpleado()
+    {
+        Employees employee = new Employees();
+        employee.Title = "Developer";
+        employee.LastName = "Melgarejo";
+        employee.FirstName = "Julia";
+        employee.Country = "Argentina";
+        employee.City = "Rosario";
+        employee.BirthDate = DateTime.Now;
+        employee.HireDate = DateTime.Now;
+        var newEmployees = await _dataContext.AddAsync(employee);
+        var result = _dataContext.SaveChanges();
+
+        return (result > 0);
+
+
     }
 
 }

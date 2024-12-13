@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "Rdsk1i2KnJtIFcK9eXVg08yCRcJXcta+YHyShG6jqNY=",
+  "Hash": "j2VPJJKtO3G3O5/3mQSohpW4lfljBS9l5ziQZmkXRCY=",
   "Source": "api-bbdd",
   "BasePath": "_content/api-bbdd",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

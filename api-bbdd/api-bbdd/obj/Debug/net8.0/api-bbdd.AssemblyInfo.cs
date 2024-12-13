@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api-bbdd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95c219b664f3d9f5e0037be64d3e74f7bfad7f46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ad9c79d426a272cd5f61223f435c15d354d47bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("api-bbdd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api-bbdd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
